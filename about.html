@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
+	<a href="gallery.html"><i class="fa fa-birthday-cake"></i> Gallery</a>
+    <a href="quote.html"><i class="fa fa-fw fa-envelope"></i> Order Enquiry</a>
+    <a href="contact.html"><i class="fa fa-comments"></i> Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<main>
+    <h1>About Us</h1>
+	<img src="facebook_cover.jpg" alt="logo" class="responsiveimg" width="600" height="400">
+	<p>Here at Cakes Amoré we love baking all kinds of yummy cakes, cupcakes/birthday cakes/wedding cakes, tray bakes, biscuits... and Moré!<br><br>We are based in Cinderford in the Forest of Dean and aim to use locally sourced and natural ingredients in all of our baking.<br><br>
+	Please take a look at our work portfolio over the last few years we make all kinds of cakes <a href="gallery.html">Gallery Here</a>.<br><br>Cakes Amoré started as a hobby and a passion in summer 2021.<br><br> My name is Megan, head baker here at Cakes Amoré. I have been baking cakes for friends and family for years. I have many years of experience and various qualifications such as food hygene from working in several parts of the food industry.<br><br>We are a registered business and are fully insured.<br><br>If you have any question or want to get in touch please see our <a href="contact.html">Contact Page</a>.</p>
+
+</main>
+</body>
+</html>
