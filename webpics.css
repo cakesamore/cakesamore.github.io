@@ -7,6 +7,8 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  	color: #fff0f3;
+	text-shadow: 0 0 3px #731428;
 }
 
 * {
@@ -29,6 +31,7 @@ div.desc {
 @media only screen and (max-width: 300px) {
  .responsive2 {
     width: 100%;
+	margin: 6px 0;
   }
 }
 

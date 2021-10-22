@@ -35,6 +35,12 @@ img {
   pointer-events: none;
 }
 
+p
+{
+	color: #fff0f3;
+	text-shadow: 0 0 3px #731428;
+}
+
 
 
 .topnav {
@@ -154,4 +160,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  position: relative;
+  z-index: 0;
 }
