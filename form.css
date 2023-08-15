@@ -27,11 +27,11 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #fe7f9c;
-  padding: 25px;
-  width: 80%;
-  position: absolute;
+  padding: 20px;
+  width: 90%;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   text-align: left;
